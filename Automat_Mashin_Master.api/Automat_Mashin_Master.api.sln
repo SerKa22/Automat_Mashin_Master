@@ -7,6 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automat_Mashin_Master.api",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Master.Contecst", "..\Automat_Mashin_Master.Contecst\Automat_Mashin_Master.Contecst.csproj", "{1B18A8B8-1FA5-4B31-A46F-F9A652F772B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Master.context.constracts", "..\Automat_Mashin_Master.context.constracts\Automat_Mashin_Master.context.constracts.csproj", "{A8B7E29A-A331-4E95-B52E-0A684674BE71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Master.Repositories", "..\Automat_Mashin_Master.Repositories\Automat_Mashin_Master.Repositories.csproj", "{52F705D2-48EB-4995-BB4E-E329FD62C9E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Master.Repositories.Contracts", "Automat_Mashin_Master.Repositories.Contracts\Automat_Mashin_Master.Repositories.Contracts.csproj", "{E08DAD44-509B-4FAB-8725-B5126F980A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Master.Repositories.Tests", "..\Automat_Mashin_Master.Repositories.Tests\Automat_Mashin_Master.Repositories.Tests.csproj", "{C8757267-8BE5-42F6-BAAC-EC59A2B4BDD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,22 @@ Global
 		{1B18A8B8-1FA5-4B31-A46F-F9A652F772B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B18A8B8-1FA5-4B31-A46F-F9A652F772B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B18A8B8-1FA5-4B31-A46F-F9A652F772B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B7E29A-A331-4E95-B52E-0A684674BE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B7E29A-A331-4E95-B52E-0A684674BE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B7E29A-A331-4E95-B52E-0A684674BE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B7E29A-A331-4E95-B52E-0A684674BE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F705D2-48EB-4995-BB4E-E329FD62C9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F705D2-48EB-4995-BB4E-E329FD62C9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F705D2-48EB-4995-BB4E-E329FD62C9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F705D2-48EB-4995-BB4E-E329FD62C9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08DAD44-509B-4FAB-8725-B5126F980A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08DAD44-509B-4FAB-8725-B5126F980A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08DAD44-509B-4FAB-8725-B5126F980A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08DAD44-509B-4FAB-8725-B5126F980A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8757267-8BE5-42F6-BAAC-EC59A2B4BDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8757267-8BE5-42F6-BAAC-EC59A2B4BDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8757267-8BE5-42F6-BAAC-EC59A2B4BDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8757267-8BE5-42F6-BAAC-EC59A2B4BDD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
