@@ -5,15 +5,21 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automat_Mashin_Master.api", "Automat_Mashin_Master.api\Automat_Mashin_Master.api.csproj", "{4A5F0F79-4CE1-49E4-8168-00490BB92E7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Master.Contecst", "..\Automat_Mashin_Master.Contecst\Automat_Mashin_Master.Contecst.csproj", "{1B18A8B8-1FA5-4B31-A46F-F9A652F772B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automat_Mashin_Master.Contecst", "..\Automat_Mashin_Master.Contecst\Automat_Mashin_Master.Contecst.csproj", "{1B18A8B8-1FA5-4B31-A46F-F9A652F772B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Master.context.constracts", "..\Automat_Mashin_Master.context.constracts\Automat_Mashin_Master.context.constracts.csproj", "{A8B7E29A-A331-4E95-B52E-0A684674BE71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automat_Mashin_Master.context.constracts", "..\Automat_Mashin_Master.context.constracts\Automat_Mashin_Master.context.constracts.csproj", "{A8B7E29A-A331-4E95-B52E-0A684674BE71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Master.Repositories", "..\Automat_Mashin_Master.Repositories\Automat_Mashin_Master.Repositories.csproj", "{52F705D2-48EB-4995-BB4E-E329FD62C9E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automat_Mashin_Master.Repositories", "..\Automat_Mashin_Master.Repositories\Automat_Mashin_Master.Repositories.csproj", "{52F705D2-48EB-4995-BB4E-E329FD62C9E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Master.Repositories.Contracts", "Automat_Mashin_Master.Repositories.Contracts\Automat_Mashin_Master.Repositories.Contracts.csproj", "{E08DAD44-509B-4FAB-8725-B5126F980A08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automat_Mashin_Master.Repositories.Tests", "..\Automat_Mashin_Master.Repositories.Tests\Automat_Mashin_Master.Repositories.Tests.csproj", "{C8757267-8BE5-42F6-BAAC-EC59A2B4BDD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Master.Repositories.Tests", "..\Automat_Mashin_Master.Repositories.Tests\Automat_Mashin_Master.Repositories.Tests.csproj", "{C8757267-8BE5-42F6-BAAC-EC59A2B4BDD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Masret_Services", "..\Automat_Mashin_Masret_Services\Automat_Mashin_Masret_Services.csproj", "{4763F3F8-EAF1-4BF9-8DC7-B6E1670FDB52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Masret_Services.Contracts", "..\Automat_Mashin_Masret_Services.Contracts\Automat_Mashin_Masret_Services.Contracts.csproj", "{EFDDC557-34A3-42D7-802F-CA5614E9CE52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Masret_Services_Service.Tests", "..\Automat_Mashin_Masret_Services_Service.Tests\Automat_Mashin_Masret_Services_Service.Tests.csproj", "{5BABDC0D-8689-460E-9BB5-BA36E7324500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat_Mashin_Master.Repositories.Contracts", "..\Automat_Mashin_Master.Repositories.Contracts\Automat_Mashin_Master.Repositories.Contracts.csproj", "{01327B67-3FEE-4DD8-9248-F0AF353F3D36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +43,26 @@ Global
 		{52F705D2-48EB-4995-BB4E-E329FD62C9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52F705D2-48EB-4995-BB4E-E329FD62C9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52F705D2-48EB-4995-BB4E-E329FD62C9E4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E08DAD44-509B-4FAB-8725-B5126F980A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E08DAD44-509B-4FAB-8725-B5126F980A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E08DAD44-509B-4FAB-8725-B5126F980A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E08DAD44-509B-4FAB-8725-B5126F980A08}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C8757267-8BE5-42F6-BAAC-EC59A2B4BDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C8757267-8BE5-42F6-BAAC-EC59A2B4BDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8757267-8BE5-42F6-BAAC-EC59A2B4BDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8757267-8BE5-42F6-BAAC-EC59A2B4BDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4763F3F8-EAF1-4BF9-8DC7-B6E1670FDB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4763F3F8-EAF1-4BF9-8DC7-B6E1670FDB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4763F3F8-EAF1-4BF9-8DC7-B6E1670FDB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4763F3F8-EAF1-4BF9-8DC7-B6E1670FDB52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFDDC557-34A3-42D7-802F-CA5614E9CE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDDC557-34A3-42D7-802F-CA5614E9CE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDDC557-34A3-42D7-802F-CA5614E9CE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDDC557-34A3-42D7-802F-CA5614E9CE52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BABDC0D-8689-460E-9BB5-BA36E7324500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BABDC0D-8689-460E-9BB5-BA36E7324500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BABDC0D-8689-460E-9BB5-BA36E7324500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BABDC0D-8689-460E-9BB5-BA36E7324500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01327B67-3FEE-4DD8-9248-F0AF353F3D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01327B67-3FEE-4DD8-9248-F0AF353F3D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01327B67-3FEE-4DD8-9248-F0AF353F3D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01327B67-3FEE-4DD8-9248-F0AF353F3D36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
